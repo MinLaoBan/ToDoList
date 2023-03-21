@@ -1,0 +1,132 @@
+body {
+    background-color: #cbcecb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    height: 1.875rem;
+    background-color: #fcfffc;
+}
+
+.nav {
+    height: 3.125rem;
+    line-height: 3.125rem;
+    width: 100%;
+    background-color: #2f322f;
+}
+
+.nav .content {
+    width: 83.125rem;
+    margin: 0 auto;
+}
+.nav .content p input {
+    outline: none;
+    padding-left: .625rem;
+}
+.nav .content p {
+    float: left;
+    font-size: 1.875rem;
+    color: #fff;
+}
+
+.nav .content p:nth-child(2) {
+    margin-left: 43.75rem;
+    line-height: 100%;
+}
+
+.nav .content p:nth-child(2) input {
+    width: 25rem;
+    height: 1.875rem;
+    border-radius: .625rem;
+}
+
+.container {
+    width: 83.125rem;
+    margin: 0 auto;
+}
+
+.container h2 {
+    margin: .625rem 0;
+}
+
+.container h2 span {
+    margin-left: 74.75rem;
+    display: inline-block;
+    width: 1.875rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #e7e6f9;
+}
+
+.container ol,
+.container ul {
+    margin-top: 1.25rem;
+    background-color: #cbcecb;
+}
+
+.container ol li,
+.container ul li {
+    margin: .625rem 0;
+    height: 100%;
+    line-height: 2.125rem;
+}
+/* 修改已经完成li的颜色和背景 */
+.container ul li {
+    background-color: #e4e6e3;
+    color: #ccc;
+}
+
+.container ol li::before,
+.container ul li::before {
+    content: '|';
+    display: inline-block;
+    color: #699999;
+}
+
+.container ol li a,
+.container ul li a {
+    float: right;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: .3125rem .3125rem 0 0;
+    border-radius: 50%;
+    background-color: #699999;
+}
+.container ol li input,
+.container ul li input {
+    margin: 0 .625rem;
+    width: .9375rem;
+    height: .9375rem;
+}
+.finish {
+    margin-top: 1.25rem;
+}
+.footer {
+    position: fixed;
+    top: 50rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18.75rem;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:767px) {
+    html {
+        font-size: 8px;
+    }
+}
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 16px;
+    }
+}
