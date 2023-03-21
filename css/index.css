@@ -35,7 +35,7 @@ li {
 }
 
 .nav .content p:nth-child(2) {
-    margin-left: 43.75rem;
+    float: right;
     line-height: 100%;
 }
 
@@ -55,8 +55,7 @@ li {
 }
 
 .container h2 span {
-    margin-left: 74.75rem;
-    display: inline-block;
+    float: right;
     width: 1.875rem;
     height: 1.875rem;
     line-height: 1.875rem;
